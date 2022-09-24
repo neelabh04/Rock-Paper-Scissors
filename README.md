@@ -25,7 +25,7 @@ It is a simple hand game usually played between two people,  in which each playe
 ![Screenshot of the page](images/screenshot.jpg)
   
 ### Demonstration  
-![Working demo](video/demo.mp4)
+
 ## My process
 ### Built with
 - HTML5
