@@ -5,7 +5,9 @@ I made this in order understand the concepts of JavaScript.
 
 ## Table of contents
 - [Overview](#overview)
+    - [How to play ?](#rock-paper-and-scissors-game) ✌️
     - [Screenshot](#screenshot) 📷
+    - [Demo Game](#demonstration) 🎮
 
 - [My process](#my-process)
     - [Built with](#built-with) 🚀
@@ -14,15 +16,16 @@ I made this in order understand the concepts of JavaScript.
     - [Useful resources](#useful-resources) 📚
 
 ## Overview 
-### What is Rock, paper and scissors game ? 
-
+### Rock Paper and Scissors Game
 It is a simple hand game usually played between two people,  in which each player simultaneously forms one of three shapes with an outstretched hand. 
 
-![](images/rock-paper-scissors.png)
-### Screenshot
+![Rules to play the game in real world](images/rock-paper-scissors.png)
 
-![](images/screenshot.jpg)
+### Screenshot
+![Screenshot of the page](images/screenshot.jpg)
   
+### Demonstration  
+![Working demo](video/demo.mp4)
 ## My process
 ### Built with
 - HTML5
