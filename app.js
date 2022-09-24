@@ -26,15 +26,15 @@ function generateComputerChoice() {
     console.log(randomNumber);
 
     if(randomNumber === 1) {
-        computerChoice = 'rock';
+        computerChoice = 'Rock';
     }
 
     if(randomNumber === 2) {
-        computerChoice = 'paper';
+        computerChoice = 'Paper';
     }
 
     if(randomNumber === 3) {
-        computerChoice = 'scissors';
+        computerChoice = 'Scissors';
     }
 
     computerChoiceDisplay.innerHTML = computerChoice;
@@ -48,29 +48,29 @@ function getResult() {
     }
     
     // Computer -> Rock possiblities
-    if(computerChoice === 'rock' && userChoice === 'paper') {
+    if(computerChoice === 'Rock' && userChoice === 'Paper') {
         result = 'You Win :)';
     }
     
-    if(computerChoice === 'rock' && userChoice === 'scissors') {
+    if(computerChoice === 'Rock' && userChoice === 'Scissors') {
         result = 'You Lost!';
     }
     
     // Computer -> Paper possiblities
-    if(computerChoice === 'paper' && userChoice === 'scissors') {
+    if(computerChoice === 'Paper' && userChoice === 'Scissors') {
         result = 'You Win :)';
     }
 
-    if(computerChoice === 'paper' && userChoice === 'rock') {
+    if(computerChoice === 'Paper' && userChoice === 'Rock') {
         result = 'You Lost!';
     }
 
     // Computer -> Scissors possiblities
-    if(computerChoice === 'scissors' && userChoice === 'rock') {
+    if(computerChoice === 'Scissors' && userChoice === 'Rock') {
         result = 'You Win :)';
     }
 
-    if(computerChoice === 'scissors' && userChoice === 'paper') {
+    if(computerChoice === 'Scissors' && userChoice === 'Paper') {
         result = 'You Lost!';
     }
 
